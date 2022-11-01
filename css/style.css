@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: linear-gradient( to bottom,rgb(255, 215, 222), rgb(255, 190, 233));
+    height: 100vh;
+}
+
+table {
+    width: 100%;
+    margin: 12px;
+    text-align: center;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+table,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#busca {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 5cm;
+    height: 28px;
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#btn_criar {
+    background-color: rgb(27, 172, 172);
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+#btn_criar a {
+    color: white;
+}
+
+#lupa {
+    background-color: rgba(27, 172, 172, 0);
+    border: none;
+    color: white;
+}
+
+#lupa a {
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+#campo_pesquisa {
+    margin: 0 12px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+#btn-edit {
+    color: rgb(0, 153, 255)
+}
+
+#btn-delete {
+    color: red
+}
+
+#topo {
+    margin-top: 50px;
+}
